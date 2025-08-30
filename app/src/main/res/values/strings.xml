@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Carte</string>
+    <string name="nom_text">KOUADIO SAPHIRA BERENICE DOMINIQUE</string>
+    <string name="ABD_text">Administrateur Base de Données</string>
+    <string name="num_text">0768760766</string>
+    <string name="email_text">dominiquekouadio50@gmail.com</string>
+    <string name="add_text">\@domi_KOUADIO</string>
 </resources>

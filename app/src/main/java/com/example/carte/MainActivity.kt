@@ -28,6 +28,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
@@ -46,11 +47,11 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     GreetingText(
-                        nom = "KOUADIO SAPHIRA BERENICE DOMINIQUE",
-                        text1 = "Administrateur Base de Données",
-                        telephone = "0768760766",
-                        email = "dominiquekouadio50@gmail.com",
-                        add = "@domi_KOUADIO"
+                        nom = stringResource(R.string.nom_text),
+                        text1 = stringResource(R.string.ABD_text),
+                        telephone = stringResource(R.string.num_text),
+                        email = stringResource(R.string.email_text),
+                        add = stringResource(R.string.add_text)
                     )
                 }
             }
@@ -145,14 +146,14 @@ fun GreetingText(
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun CarteVisitePreview() {
     CarteTheme {
         GreetingText(
-            nom = "KOUADIO SAPHIRA BERENICE DOMINIQUE",
-            text1 = "Administrateur Base de Données",
-            telephone = "0768760766",
-            email = "dominiquekouadio50@gmail.com",
-            add = "@domi_KOUADIO"
+            nom = stringResource(R.string.nom_text),
+            text1 = stringResource(R.string.ABD_text),
+            telephone = stringResource(R.string.num_text),
+            email = stringResource(R.string.email_text),
+            add = stringResource(R.string.add_text)
         )
     }
 }
